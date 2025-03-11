@@ -10,8 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 200vh;
+    height: 100vh;
 }
 .grid{
     display: flex;
@@ -21,6 +20,9 @@ body{
     top: -50vh;
     height: 100vh;
     background-color: black;
+}
+.grid h1{
+    
 }
 .shoe{
     width: 50vw;
@@ -39,4 +41,7 @@ body{
 }
 .man{
     color: white;
+}
+.container{
+    
 }

@@ -1,0 +1,44 @@
+:root{
+    --color-red : red;
+    --color-black : #020024;
+    --dark-red : rgb(195, 3, 3);
+}
+body{
+    overflow-x: hidden;
+    color: white;
+}
+.grid-hero{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+.grid{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.card{
+    color: white;
+    border-radius: 10px;
+    border: 0;
+}
+.card-body{
+    background-color: #15161d;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-text{
+    color: darkgrey;
+}
+.btn-danger{
+    background-color: var(--dark-red);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
