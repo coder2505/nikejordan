@@ -17,3 +17,5 @@ t1m.from("#textholder h1 span",{
     stagger:0.04,
 
 })
+
+t1m.fromTo("#built",{opacity:0},{opacity:1, duration:0.5,})
