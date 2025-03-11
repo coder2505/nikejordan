@@ -10,7 +10,7 @@ t1.to('.shoe', {
     }
 })
 t1.from('.jump', {
-    x: '-100vh',scrollTrigger: {
+    x: '-150vh',scrollTrigger: {
         scroller: 'body',
         trigger: '.shoe',
         start: 'top 80%',
@@ -20,7 +20,7 @@ t1.from('.jump', {
     }
 })
 t1.from('.man', {
-    x: '100vh',scrollTrigger: {
+    x: '150vh',scrollTrigger: {
         scroller: 'body',
         trigger: '.shoe',
         start: 'top 80%',
