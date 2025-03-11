@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}", "./tejas.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'big-shoulders': ['"Big Shoulders Inline"', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }

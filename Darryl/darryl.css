@@ -10,9 +10,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color :red;
-    background: linear-gradient(135deg, red 0%, rgba(0,0,0,1) 31%);
+
     height: 200vh;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: -50vh;
+    height: 100vh;
+    background-color: black;
+}
+.grid h1{
+    
 }
 .shoe{
     width: 50vw;
