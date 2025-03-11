@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./tejas.html"],
+  content: ["./src/**/*.{html,js}", "./tejas.html", "./index.html"],
   theme: {
     extend: {
       fontFamily: {
@@ -8,6 +8,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
 
