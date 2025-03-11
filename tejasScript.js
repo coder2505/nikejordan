@@ -1,6 +1,6 @@
 let tl = gsap.timeline();
 tl.to("#quote",{
-    transform:"translateX(-420%)",
+    transform:"translateX(-350%)",
     ease:"none",
     scrollTrigger:{
         trigger:"#quote",

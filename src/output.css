@@ -584,6 +584,10 @@ video {
   background-color: rgb(147 197 253 / var(--tw-bg-opacity, 1));
 }
 
+.font-big-shoulders {
+  font-family: "Big Shoulders Inline", cursive;
+}
+
 .text-\[400px\] {
   font-size: 400px;
 }
