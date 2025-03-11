@@ -1,0 +1,36 @@
+:root{
+    --color-red : red;
+    --color-black : #020024;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color :red;
+    background: linear-gradient(135deg, red 0%, rgba(0,0,0,1) 31%);
+    height: 100vh;
+}
+.grid{
+    
+}
+.shoe{
+    width: 35vw;
+    transform: rotate(-30deg);
+    position: relative;
+    right: 8vw;
+}
+.jump, .man{
+    font-size: 80px;
+    font-family: "Newsreader", serif;
+    font-weight: 700;
+}
+.jump{
+    color: var(--color-red);
+    
+}
+.man{
+    color: white;
+}
